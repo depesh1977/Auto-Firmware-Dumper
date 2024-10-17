@@ -6,15 +6,15 @@ on:
       USER_NAME:
         description: 'Name in GitHub Account'
         required: true
-        default: ''
+        default: 'depesh1977'
       USER_EMAIL:
         description: 'E-mail in GitHub Account'
         required: true
-        default: ''
+        default: 'axenov.gosha@yandex.ru'
       FIRMWARE_URL:
         description: 'Stock ROM Link'
         required: true
-        default: ''
+        default: 'https://mega.nz/file/9oVFELqa#ViQVWufx61BLD5uEOtJSxwNVYVEH2Y9Ohmq7XwrETzI'
       VENDOR_NAME:
         description: 'Device manufacturer '
         required: true
@@ -29,6 +29,7 @@ on:
         default: 'LineageOS 21.0'
         type: choice
         options:
+          - 'LineageOS 15.1'
           - 'LineageOS 20.0'
           - 'LineageOS 21.0'
           - 'LineageOS 22.0'
@@ -49,7 +50,7 @@ jobs:
     if: github.event.repository.owner.id == github.event.sender.id
     runs-on: ubuntu-20.04
     env:
-      GITHUB_TOKEN: ${{ secrets.GTOKEN }}
+      GITHUB_TOKEN: ${{ secrets.axe }}
       LOT: ${{ github.event.inputs.UPLOAD_LINEAGE_DT }}
       GVT: ${{ github.event.inputs.GENERATE_VENDOR }}
       FUR: ${{ github.event.inputs.FIRMWARE_URL }}
