@@ -18,15 +18,15 @@ on:
       VENDOR_NAME:
         description: 'Device manufacturer '
         required: true
-        default: ''
+        default: 'lineage'
       DEVICE_NAME:
         description: 'Device code name '
         required: true
-        default: ''
+        default: '1808'
       PROJECT:
         description: 'Selecting a lineage for vendor generation:'
         required: true
-        default: 'LineageOS 21.0'
+        default: 'LineageOS 15.1'
         type: choice
         options:
           - 'LineageOS 15.1'
