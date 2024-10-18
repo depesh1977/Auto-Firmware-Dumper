@@ -14,7 +14,7 @@ on:
       FIRMWARE_URL:
         description: 'Stock ROM Link'
         required: true
-        default: 'https://mega.nz/file/9oVFELqa#ViQVWufx61BLD5uEOtJSxwNVYVEH2Y9Ohmq7XwrETzI'
+        default: 'https://mega.nz/file/k1slDLyR#jO6cWEcRo140RsNN6qqngV9McsOnODL5CG8saIlednk'
       VENDOR_NAME:
         description: 'Device manufacturer '
         required: true
