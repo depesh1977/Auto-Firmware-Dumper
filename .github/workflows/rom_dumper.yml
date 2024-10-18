@@ -14,7 +14,7 @@ on:
       FIRMWARE_URL:
         description: 'Stock ROM Link'
         required: true
-        default: 'https://mega.nz/file/k1slDLyR#jO6cWEcRo140RsNN6qqngV9McsOnODL5CG8saIlednk'
+        default: 'https://mega.nz/file/NwN2UTwb#RH95ayE6Q2NPF_KJpAJj4UDUwGH_MQaQVqAZe7aXDOM'
       VENDOR_NAME:
         description: 'Device manufacturer '
         required: true
@@ -22,11 +22,11 @@ on:
       DEVICE_NAME:
         description: 'Device code name '
         required: true
-        default: '1808'
+        default: 'rmx3231'
       PROJECT:
         description: 'Selecting a lineage for vendor generation:'
         required: true
-        default: 'LineageOS 15.1'
+        default: 'LineageOS 18.0'
         type: choice
         options:
           - 'LineageOS 15.1'
