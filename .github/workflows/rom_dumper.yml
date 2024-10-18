@@ -29,7 +29,7 @@ on:
         default: 'LineageOS 18.0'
         type: choice
         options:
-          - 'LineageOS 15.1'
+          - 'LineageOS 18.0'
           - 'LineageOS 20.0'
           - 'LineageOS 21.0'
           - 'LineageOS 22.0'
